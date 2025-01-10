@@ -3,8 +3,7 @@ version: '3'
 #     Homarr - A simple, yet powerful dashboard for your server.      #
 #---------------------------------------------------------------------#
 services:
-  homarr:
-    container_name: homarr
+  server:
     image: ghcr.io/ajnart/homarr:latest
     restart: unless-stopped
     volumes:
@@ -13,10 +12,11 @@ services:
       - ./homarr/icons:/app/public/icons
       - ./homarr/data:/data
     ports:
-      - '7575:7575'
+      - 7575
     
   app_proxy:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: brunov-homarr
-      APP_PORT: 7575
+      APP_HOST: brunov-homarr_server_1
+      APP_PORT: 7575:7575
+      restart: unless-stopped
