@@ -8,17 +8,17 @@ services:
       - POSTGRES_PASSWORD=postgres
       - POSTGRES_USER=postgres
       - POSTGRES_DB=postgres
-      - TZ=America/Sao_Paulo
+      - TZ=Europe/Amsterdam
     container_name: ryot-db
 
   server:
     image: ignisda/ryot:v7 # or ghcr.io/ignisda/ryot:v7
     environment:
       - DATABASE_URL=postgres://postgres:postgres@ryot-db:5432/postgres
-      - TZ=America/Sao_Paulo
+      - TZ=Europe/Amsterdam
       - SERVER_ADMIN_ACCESS_TOKEN=28ebb3ae554fa9867ba0 # CHANGE THIS
     ports:
-      - 6565
+      - "8000:8000"
     pull_policy: always
   
   app_proxy:
