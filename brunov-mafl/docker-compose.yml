@@ -2,7 +2,7 @@ version: '3'
 
 services:
   mafl:
-    image: hywax/mafl
+    image: ghcr.io/hywax/mafl:v0.15.4
     restart: unless-stopped
     ports:
       - '3091:3091'
