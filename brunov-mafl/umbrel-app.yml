@@ -1,0 +1,57 @@
+manifestVersion: 1
+id: brunov-mafl
+name: Mafl
+tagline: Minimalistic flexible homepage
+icon: https://raw.githubusercontent.com/hywax/mafl/main/docs/public/logotype.svg
+category: Files & Productivity
+version: "0.15.4"
+port: 3091
+description: >-
+  Mafl is an intuitive service for organizing your homepage. Customize Mafl to your individual needs and work even more efficiently!
+
+  🎯 Features
+
+  🔐 Privacy. All requests to third-party services occur in backend.
+  ⚡ Real-time. Interactive cards with extra information.
+  🌎 Multi-language. Supports multiple languages.
+  🎨 Themes. Customize the look to your liking.
+  🗂️ Grouping. Create custom service groups.
+  🏷️ Tags. Add tags to your services.
+  👌 Easy setup. A few lines of yaml and your homepage is ready to go.
+  🚀 Fast. Everything is fast and free of hang-ups.
+  ✨ Free. Mafl is completely free and open source.
+
+developer: hywax
+website: https://mafl.hywax.space
+submitter: hywax
+submission: https://github.com/getumbrel/umbrel-hello-world-app
+repo: https://github.com/hywax/mafl
+support: https://github.com/getumbrel/umbrel-hello-world-app/issues
+gallery:
+  - https://mafl.hywax.space/assets/splnut.DfLUNxNO.png
+  - https://mafl.hywax.space/assets/aemon-cao-1.BDqvroDK.png
+  - https://mafl.hywax.space/assets/aemon-cao-2.BNA_-JeU.png
+releaseNotes: >-
+  v0.15.4
+
+  🚀 Enhancements
+  Gr-GR locale (#122)
+  De-DE locale (#124)
+
+  📖 Documentation
+  showcase: By @crueber (#116)
+  showcase: Crueber image (a55b9d7)
+  German and greek locale (a2a761d)
+
+  🏡 Chore
+  Update CONTRIBUTORS (2fc0498)
+
+  ❤️ Contributors
+  Hywax (@hywax)
+  Gehno (@gehno)
+  Stratos (@sthivaios)
+  Bot (@hywax-assistant)
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
