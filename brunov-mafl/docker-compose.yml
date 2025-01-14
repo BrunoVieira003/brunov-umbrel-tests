@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  web:
+  mafl:
     image: hywax/mafl
     restart: unless-stopped
     ports:
@@ -12,6 +12,6 @@ services:
   app_proxy:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: brunov-mafl_web_1
+      APP_HOST: brunov-mafl_mafl_1
       APP_PORT: 3091
       restart: unless-stopped
