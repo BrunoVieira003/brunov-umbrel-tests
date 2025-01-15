@@ -5,7 +5,7 @@ tagline: Minimalistic flexible homepage
 icon: https://raw.githubusercontent.com/hywax/mafl/main/docs/public/logotype.svg
 category: Files & Productivity
 version: "0.15.4"
-port: 3091
+port: 13091
 description: >-
   Mafl is an intuitive service for organizing your homepage. Customize Mafl to your individual needs and work even more efficiently!
 
