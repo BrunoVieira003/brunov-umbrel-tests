@@ -5,7 +5,7 @@ services:
     image: ghcr.io/hywax/mafl:latest
     restart: unless-stopped
     ports:
-      - '3000:3000'
+      - '3000:13091'
     volumes:
       - ./mafl/:/app/data/
     container_name: web
