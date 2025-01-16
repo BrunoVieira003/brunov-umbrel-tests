@@ -2,7 +2,7 @@ manifestVersion: 1
 id: brunov-gotify
 name: Gotify
 tagline: A self-hosted push notification service.
-icon: https://static-00.iconduck.com/assets.00/homarr-icon-2048x1386-zch7ypca.png
+icon: https://static-00.iconduck.com/assets.00/gotify-icon-2048x1688-c58guws5.png
 category: Developer Tools
 version: "2.6.1"
 port: 2040
