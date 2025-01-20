@@ -5,9 +5,9 @@ services:
     image: ghcr.io/gethomepage/homepage:latest
     container_name: homepage
     ports:
-      - 4545:3000
+      - 4545
     volumes:
-      - ${UMBREL_ROOT}/data/storage/apps-config:/data/config
+      - ./homepage/configs:/app/data/configs
       - /var/run/docker.sock:/var/run/docker.sock # (optional) For docker integrations
     
   app_proxy:
