@@ -1,0 +1,27 @@
+manifestVersion: 1
+id: brunov-widgets
+name: Test widget
+tagline: A simple, yet powerful dashboard for your server.
+icon: https://static-00.iconduck.com/assets.00/homarr-icon-2048x1386-zch7ypca.png
+category: Widgets
+version: "1.0.0"
+port: 7575
+description: >-
+  Simplify the management of your server with Homarr - a sleek, modern dashboard that puts all of your apps and services at your fingertips. With Homarr, you can access and control everything in one convenient location. Homarr seamlessly integrates with the apps you've added, providing you with valuable information and giving you complete control. Installation is a breeze, and Homarr supports a wide range of deployment methods.
+
+developer: ajnart
+website: https://homarr.dev
+submitter: ajnart
+submission: https://github.com/getumbrel/umbrel-hello-world-app
+repo: https://github.com/ajnart/homarr
+support: https://github.com/getumbrel/umbrel-hello-world-app/issues
+gallery:
+  - https://homarr.dev/img/pictures/homarr-devices-preview/compressed/homarr-devices-2d-mockup-flat-shadow-dark-compressed.webp
+  - https://i.redd.it/my-homarr-dashboard-recently-entered-a-firewalla-v0-nfx5xckhziac1.png?width=2560&format=png&auto=webp&s=5eca5800dbf9227a20c82e7038e312bfcd5e9600
+  - https://preview.redd.it/dqlxh5hnl2ea1.png?auto=webp&s=82bfda1e9fc3d3f8d6046211f52cd332683ffa78
+releaseNotes: >-
+  Add what's new in the latest version of your app here.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
