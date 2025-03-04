@@ -2,7 +2,7 @@ version: "3.9"
 services:
   app_proxy:
     environment:
-      APP_HOST: brunov-test-swingmusic_server_1
+      APP_HOST: tests-swingmusic_server_1
       APP_PORT: 1970
       PROXY_AUTH_ADD: "false"
 
@@ -18,7 +18,7 @@ services:
 
   fix_permissions:
     image: ghcr.io/swingmx/swingmusic:v1.4.8@sha256:e6ccef307ebeadac967de0565b75e4906615ecfaac2a8f6bb82be13f111439d5
-    container_name: brunov-test-swingmusic_fix_permissions
+    container_name: tests-swingmusic_fix_permissions
     volumes:
       - ${UMBREL_ROOT}/data/storage/music:/music
     entrypoint: ["sh", "-c", "chmod -R 777 /music"]

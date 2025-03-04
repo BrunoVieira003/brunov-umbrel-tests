@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: brunov-test-homepage
+id: tests-homepage
 name: Homepage
 tagline: A highly customizable homepage (or startpage / application dashboard) with Docker and service API integrations.
 icon: https://avatars.githubusercontent.com/u/122929872?v=4
