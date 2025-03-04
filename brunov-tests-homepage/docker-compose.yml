@@ -4,8 +4,6 @@ services:
   server:
     image: ghcr.io/gethomepage/homepage:latest
     container_name: homepage
-    ports:
-      - 3000:3000
     volumes:
       - ${APP_DATA_DIR}/config:/app/config
       - /var/run/docker.sock:/var/run/docker.sock # (optional) For docker integrations
@@ -14,5 +12,5 @@ services:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
       APP_HOST: brunov-tests-homepage_server_1
-      APP_PORT: 3000:4545
+      APP_PORT: 4545
       restart: unless-stopped
