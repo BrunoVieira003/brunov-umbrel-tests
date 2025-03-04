@@ -2,7 +2,7 @@ manifestVersion: 1
 id: brunov-tests-fileflows
 name: FileFlows
 tagline: The ultimate solution for automatic file processing!
-icon: https://fileflows.com/img/logo.svg
+icon: https://imgur.com/3S67EOB
 category: Files
 version: "25.02.9"
 port: 19200
