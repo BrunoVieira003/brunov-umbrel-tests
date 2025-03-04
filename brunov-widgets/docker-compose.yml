@@ -17,10 +17,10 @@ services:
   app_proxy:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: brunov-widgets_server_1
+      APP_HOST: brunov-test-widgets_server_1
       APP_PORT: 7575:7575
       restart: unless-stopped
   
   widget-server:
-    image: brunovieira003/umbrel-widget-test:latest
+    image: brunov-testieira003/umbrel-widget-test:latest
     restart: on-failure

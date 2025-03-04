@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: brunov-swingmusic
+id: brunov-test-swingmusic
 name: Swimg music
 tagline: Swing Music is a beautiful, self-hosted music player for your local audio files. Like a cooler Spotify ... but bring your own music.
 icon: https://github.com/swingmx/swingmusic/raw/master/.github/images/logo-fill.light.svg
