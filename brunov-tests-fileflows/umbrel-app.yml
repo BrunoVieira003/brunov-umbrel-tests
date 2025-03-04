@@ -1,0 +1,31 @@
+manifestVersion: 1
+id: brunov-tests-fileflows
+name: FileFlows
+tagline: The ultimate solution for automatic file processing!
+icon: https://fileflows.com/img/logo.svg
+category: Files
+version: "25.02.9"
+port: 19200
+description: >-
+  FileFlows is a file processing application that can execute actions against a file in a tree flow structure.
+
+developer: revenz
+website: https://fileflows.com/
+repo: https://github.com/revenz/FileFlows
+support: https://fileflows.com/support
+gallery:
+  - https://fileflows.com/images/dashboard/settings.webp
+  - https://fileflows.com/images/webconsole/dashboard-nodes.webp
+  - https://fileflows.com/images/webconsole/dashboard-savings.webp
+releaseNotes: >-
+  New
+  - FF-2068: Renamed Logging Queue Messages to Verbose Library Logging
+  - FF-2094: Added filtering options to all Files tabs
+  - FF-2095: The Dashboard Runner now sorts additional information (Encoder, Decoder, etc.)
+  - FF-2097: Removed deprecated SQLite connection types
+  Fixed
+  - FF-2096: Libraries no longer display FileDrop flows as an option
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
