@@ -13,7 +13,7 @@ services:
       - ${APP_DATA_DIR}/data:/app/Data
       - ${APP_DATA_DIR}/logs:/app/Logs
       - ${APP_DATA_DIR}/common:/app/common
-      - ${UMBREL_ROOT}/aqui/:/downloads:rw
+      - ${UMBREL_ROOT}/home/Downloads:/downloads:rw
     
   app_proxy:
     environment:
