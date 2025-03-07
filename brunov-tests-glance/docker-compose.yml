@@ -1,19 +1,16 @@
 version: '3'
 
 services:
-  glance:
-    container_name: glance
+  web:
     image: glanceapp/glance
     volumes:
       - ${APP_DATA_DIR}/config:/app/config
       - ${APP_DATA_DIR}/assets:/app/assets
       - /var/run/docker.sock:/var/run/docker.sock:ro
-    ports:
-      - 8080:8080
     
   app_proxy:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: brunov-tests-glance_server_1
+      APP_HOST: brunov-tests-glance_web_1
       APP_PORT: 8080
       restart: unless-stopped
