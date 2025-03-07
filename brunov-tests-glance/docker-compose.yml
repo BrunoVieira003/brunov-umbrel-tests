@@ -5,6 +5,7 @@ services:
     image: glanceapp/glance
     volumes:
       - ${APP_DATA_DIR}/config:/app/config
+      - ${APP_DATA_DIR}/config/glance.yml:/app/config/glance.yml
       - ${APP_DATA_DIR}/assets:/app/assets
       - /var/run/docker.sock:/var/run/docker.sock:ro
     
