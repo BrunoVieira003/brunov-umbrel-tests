@@ -16,14 +16,21 @@ gallery:
   - https://raw.githubusercontent.com/glanceapp/glance/main/docs/images/readme-main-image.png
   - https://raw.githubusercontent.com/glanceapp/glance/main/docs/images/mobile-preview.png
   - https://raw.githubusercontent.com/glanceapp/glance/main/docs/images/themes-example.png
-releaseNotes: >-
-  What's Changed\n
-  Fixes:\n
-  - Config auto reload not working when editing with Vim (thanks @rubiojr)\n
-  - Markets widget rate limit error (thanks @ChezOps)\n
-  Changes\n
-  - Increased docker containers widget timeout (thanks @wagwan-piffting-blud)\n
+releaseNotes: >
+  What's Changed
+
+  Fixes:
+
+  - Config auto reload not working when editing with Vim (thanks @rubiojr)
+
+  - Markets widget rate limit error (thanks @ChezOps)
+
+  Changes
+
+  - Increased docker containers widget timeout (thanks @wagwan-piffting-blud)
+
   - No longer shows errors in the console when trying to get sensors data for server stats widget on OpenBSD (thanks @WickedShell)
+  
 dependencies: []
 path: ""
 defaultUsername: ""
