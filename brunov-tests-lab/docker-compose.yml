@@ -6,8 +6,6 @@ services:
     working_dir: /app
     volumes:
       - ./app:/app
-      - ./app/package.json:/app/package.json
-      - ./app/index.js:/app/index.js
-    command: sh -c "ls && npm install && node index.js"
+    command: sh -c "ls && npm init -y && npm install express && node index.js"
     ports:
       - "5000:3000"
