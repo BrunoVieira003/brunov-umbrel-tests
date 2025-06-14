@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  widget:
+    image: node:20-alpine
+    working_dir: /app
+    volumes:
+      - ./app:/app
+    command: sh -c "ls && npm install && node index.js"
+    ports:
+      - "5000:3000"

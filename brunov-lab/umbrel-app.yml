@@ -1,0 +1,51 @@
+manifestVersion: 1
+id: brunov-lab
+name: My Lab
+tagline: This is my lab
+icon: https://robohash.org/lab
+category: 0Lab
+version: "0.0.0"
+port: 5000
+description: >-
+  This is my lab
+
+developer: me
+website: https://github.com/
+repo: https://github.com
+support: https://github.com
+gallery:
+  - https://robohash.org/dumb-image
+  - https://robohash.org/dumb-image2
+  - https://robohash.org/dumb-image3
+releaseNotes: >-
+  Testing widgets now
+
+  Fix favorites card not appearing on homepage
+
+  Process audio silence using processes instead of threads
+
+widgets:
+  - id: "status"
+    type: "four-stats"
+    refresh: "5s"
+    endpoint: "widget:5000/status"
+    link: ""
+    example:
+      type: "four-stats"
+      link: ""
+      items:
+        - title: "Username 3"
+          text: "3"
+          subtext: "torrents"
+        - title: "Username 1"
+          text: "1"
+          subtext: "torrents"
+        - title: "Username 0"
+          text: "0"
+          subtext: "torrents"
+        - title: "Username 4"
+          text: "2"
+          subtext: "torrents"
+  
+dependencies: []
+path: ""
