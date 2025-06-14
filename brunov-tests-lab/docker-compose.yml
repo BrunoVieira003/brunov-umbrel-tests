@@ -2,10 +2,6 @@ version: '3'
 
 services:
   widget:
-    image: node:20-alpine
-    working_dir: /app
-    volumes:
-      - ./app:/app
-    command: sh -c "ls && npm init -y && npm install express && node index.js"
+    image: brunovieira003/lab-api-widget
     ports:
       - "5000:3000"
