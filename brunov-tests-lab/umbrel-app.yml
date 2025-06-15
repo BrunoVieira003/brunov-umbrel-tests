@@ -28,7 +28,7 @@ widgets:
   - id: "status"
     type: "four-stats"
     refresh: "5s"
-    endpoint: "widget:5000/status"
+    endpoint: "widget:5000/stats"
     link: ""
     example:
       type: "four-stats"
