@@ -4,4 +4,4 @@ services:
   widget:
     image: brunovieira003/lab-api-widget
     ports:
-      - "5000:3000"
+      - "5000:5000"
