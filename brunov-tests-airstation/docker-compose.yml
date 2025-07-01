@@ -7,8 +7,8 @@ services:
     ports:
       - "7331:7331"
     volumes:
-      - ${UMBREL_HOME}/Downloads/music:/app/static/tracks
-      - ${APP_DATA_DIR}/storage:/app/storage
+      - ${UMBREL_ROOT}/data/storage/downloads/music:/app/static/tracks:ro
+      - ${APP_DATA_DIR}/storage:/app/storage:rw
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "wget", "--spider", "-q", "http://localhost:7331/"]
