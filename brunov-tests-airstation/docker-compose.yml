@@ -3,8 +3,6 @@ services:
     environment:
       APP_HOST: brunov-airstation_server_1
       APP_PORT: 7331
-      PROXY_AUTH_WHITELIST: "*"
-      PROXY_AUTH_BLACKLIST: "/studio/*"
 
   server:
     image: cheatsnake/airstation:1.1.0

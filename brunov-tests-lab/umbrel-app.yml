@@ -49,3 +49,4 @@ widgets:
   
 dependencies: []
 path: ""
+defaultPassword: "admin"
