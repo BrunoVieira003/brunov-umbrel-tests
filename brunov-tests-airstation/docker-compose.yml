@@ -7,7 +7,7 @@ services:
     ports:
       - "7331:7331"
     volumes:
-      - ${UMBREL_ROOT}/data/storage/downloads/music:/app/static/tracks:ro
+      - ${UMBREL_ROOT}/data/storage/downloads/music:/app/static:rw
       - ${APP_DATA_DIR}/storage:/app/storage:rw
     restart: unless-stopped
     healthcheck:
