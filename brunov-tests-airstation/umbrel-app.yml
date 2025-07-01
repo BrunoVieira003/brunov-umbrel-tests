@@ -1,0 +1,33 @@
+manifestVersion: 1
+id: brunov-tests-airstation
+name: Airstation
+tagline: Your own online radio station
+icon: https://github.com/cheatsnake/airstation/raw/master/docs/images/logo.png
+category: Media
+version: "1.1.0"
+port: 7331
+description: >-
+  Airstation is a self-hosted web app for streaming music over the Internet. It features a simple interface for uploading tracks and managing the playback queue, along with a minimalistic player for listeners.
+  
+  Under the hood, it streams music over HTTP using HLS, stores data in SQLite, and leverages FFmpeg for audio processing — all packaged in a compact Docker container for easy deployment
+
+developer: cheatsnake
+repo: https://github.com/cheatsnake/airstation
+support: https://github.com/cheatsnake/airstation/issues
+gallery:
+  - https://github.com/cheatsnake/airstation/raw/master/docs/images/screenshot01.png
+  - https://github.com/cheatsnake/airstation/raw/master/docs/images/screenshot02.png
+  - https://github.com/cheatsnake/airstation/raw/master/docs/images/screenshot03.png
+releaseNotes: >-
+  - Added playlists support for better track management
+
+  - Added support for WAV files
+
+  - Improved drag-and-drop functionality for queue
+
+  - Updated dependencies
+
+  - Fixed some bugs and added some new ones
+  
+dependencies: []
+path: ""

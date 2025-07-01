@@ -1,0 +1,25 @@
+services:
+  app_proxy:
+    environment:
+      APP_HOST: brunov-airstation_server_1
+      APP_PORT: 7331
+      PROXY_AUTH_WHITELIST: "*"
+      PROXY_AUTH_BLACKLIST: "/studio/*"
+
+  server:
+    image: cheatsnake/airstation:1.1.0
+    environment:
+      - AIRSTATION_SECRET_KEY=$APP_PASSWORD
+      - AIRSTATION_JWT_SIGN=$APP_SEED
+    ports:
+      - "7331:7331"
+    volumes:
+      - ${UMBREL_HOME}/Downloads/music:/app/static/tracks
+      - ${APP_DATA_DIR}/storage:/app/storage
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:7331/"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
