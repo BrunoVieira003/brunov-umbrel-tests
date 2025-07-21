@@ -1,6 +1,6 @@
 services:
   server:
-    image: ghcr.io/papra-hq/papra:0.7.0
+    image: ghcr.io/papra-hq/papra:0.7.0-rootless
     container_name: papra
     restart: unless-stopped
     ports:
