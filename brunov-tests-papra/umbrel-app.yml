@@ -1,0 +1,20 @@
+manifestVersion: 1
+id: brunov-tests-papra
+name: Papra
+tagline: Your own online radio station
+icon: https://avatars.githubusercontent.com/u/193336953?s=200&v=4
+category: Files
+version: "1.1.0"
+port: 1221
+description: >-
+  The minimalistic document archiving platform.
+
+developer: CorentinTh
+repo: https://github.com/papra-hq/papra
+support: https://github.com/papra-hq/papra/issues
+gallery:
+  - https://github.com/papra-hq/papra/raw/main/.github/papra-screenshot.png
+releaseNotes: >-
+  
+dependencies: []
+path: ""
